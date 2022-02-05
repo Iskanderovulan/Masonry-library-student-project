@@ -1,0 +1,119 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+    .grid-item{
+        height: auto;
+    }
+
+
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+    .grid-item {
+        width: 100%;
+        margin-left:0;
+        margin-right: 0;
+        margin-bottom:30px;
+        height: auto;
+    }
+    .journal-items:nth-child(1){
+        background: none;
+    }
+    .journal-items:nth-child(1){
+        padding-left:0;
+
+    }
+    .photo p{
+        margin-top:150px;
+    }
+
+    /*FORBUREGER*/
+    /*FORBUREGER*/
+    .mobile-btn {
+        display: flex;
+        z-index: 12;
+    }
+
+    .show-mobile-btn span {
+        background: transparent; /*hides middle line*/
+
+    }
+
+    .show-mobile-btn span:before,
+    .show-mobile-btn span:after {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+
+    }
+
+    .show-mobile-btn span:before {
+        transform: rotate(45deg);
+    }
+
+    .show-mobile-btn span:after {
+        transform: rotate(-45deg);
+    }
+
+    .header__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: #C8A35F;
+        height: 18%;
+        width: 100%;
+        top: 0;
+        right: -100%;
+        z-index: 11;
+        transition: .5s;
+    }
+
+    .show-menu {
+        right: 0;
+    }
+
+    /*FORBUREGER*/
+    /*FORBUREGER*/
+
+}
+
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 576px;
+    }
+    .grid-sizer,.grid-item {
+        width: 100%;
+
+
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 356px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px;
+    }
+
+
+}
+
+@media (max-width: 280px) {
+
+}
